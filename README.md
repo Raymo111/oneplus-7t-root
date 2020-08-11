@@ -16,5 +16,5 @@ So, like me, you've just got your OnePlus 7T. You want to root it, because OnePl
 1. Remove all packaging from your phone, but **don't put the included case on yet**. It's a pain to put on and you'll thank me in a few minutes.
 2. Go through setup. Keep in mind you may have to do this again later. I'm not sure.
 3. After you get to the part where OnePlus tells you to insert your SIM, now you can put the case on. Tip: put the top right corner on last :) Oh, and you're welcome!
-4. Download the latest versions of [ADB](https://developer.android.com/studio/releases/platform-tools) and a Magisk-patched boot image for OnePlus 7T. (OOS 10.0.12, the latest version as of the 10 August 2020, is [included in this repo]](Magisk-patched OOS_10_0_12.img).
+4. Download the latest versions of [ADB](https://developer.android.com/studio/releases/platform-tools) and a Magisk-patched boot image for OnePlus 7T. (OOS 10.0.12, the latest version as of the 10 August 2020, is [included in this repo](Magisk-patched OOS_10_0_12.img).
 5. If you're on windows, extract the ADB zip file to C:\adb. Open cmd there.
