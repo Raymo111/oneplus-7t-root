@@ -1,10 +1,8 @@
 # How to Root OnePlus 7T with Magisk
 #### By Raymo111
-*Last updated 10 August 2020*
+*Last updated 26 November 2020*
 
-*
-Disclaimer: I have personally tested every step of this. However, I did the rooting in August 2020, and things MAY HAVE CHANGED. I'm not responsible for anything you do. Back up your data!
-*
+*Disclaimer: I have personally tested every step of this. However, I did the rooting in August 2020, and things MAY HAVE CHANGED. I'm not responsible for anything you do. Back up your data!*
 
 So, like me, you've just got your OnePlus 7T. You want to root it, because OnePlus is the only phone manufacturer amazing like that. That's what you should do, at least in my opinion. P.S. If you are here before you got it: wow, good for you. Pro tip, use https://oneplusstock.net/ to make sure you get it immediately when OnePlus releases a new batch.
 
