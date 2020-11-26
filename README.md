@@ -62,5 +62,4 @@ At this point, it is a **must** to set up lock screen and security, as well as a
 1. To install an OTA update and keep root, download the OTA update and make sure you disable all Magisk modules (if any).
 2. Head over to `Settings` > `System update` and tap on the cog icon on the top right corner.
 3. Click on ‘Local upgrade‘ and select the OTA .zip file needed for installing the update. Once selected, tap `Install`. The update will take a few minutes to install. **Do NOT reboot** yet.
-5. Open Magisk Manager and repeat step 21.
-6. Repeat step 21 again, but select the `Install to Inactive Slot (After OTA)` instead. Now manually reboot your phone and it should work.
+5. Open Magisk Manager and repeat step 21, but this time select the `Install to Inactive Slot (After OTA)` instead. Root should be preserved the OTA update should be installed. Note that you only need to flash one of the A/B on each OTA update, and root will persist even after reboots.
