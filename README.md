@@ -14,6 +14,7 @@ So, like me, you've just got your OnePlus 7T. You want to root it, because OnePl
   - Try rebooting first before you smash something in anger. If you do smash something, don't smash something expensive.
   - https://www.oneplus.com/global/support/softwareupgrade > OnePlus 7T (**not 7T Pro!**) has the stock boot image that you can flash using fastboot the same way you flash a patched version.
  - In case 10.0.0.12 isn't the newest version anymore and xda-devs doesn't have a patched **GLOBAL** version of the latest OOS then [this xda post](https://forum.xda-developers.com/showpost.php?p=81277507&postcount=613) might help. (I also just saved it on wayback machine just in case)
+ - I've confirmed that major OOS updates (like 10->11) *DO* work with this method (keep root without losing data). However, it is still your responsibility to backup your data!
 
 ## Root
 1. Remove all packaging from your phone, but **don't put the included case on yet**. It's a pain to put on and you'll thank me in a few minutes.
@@ -63,6 +64,3 @@ At this point, it is a **must** to set up lock screen and security, as well as a
 2. Head over to `Settings` > `System update` and tap on the cog icon on the top right corner.
 3. Click on ‘Local upgrade‘ and select the OTA .zip file needed for installing the update. Once selected, tap `Install`. The update will take a few minutes to install. **Do NOT reboot** yet.
 5. Open Magisk Manager and repeat step 21, but this time select the `Install to Inactive Slot (After OTA)` instead. Root should be preserved the OTA update should be installed. Note that you only need to flash one of the A/B on each OTA update, and root will persist even after reboots.
-
-## Notes
-I've confirmed that major OOS updates (like 10->11) *DO* work with this method (keep root without losing data). However, it is still your responsibility to backup your data!
