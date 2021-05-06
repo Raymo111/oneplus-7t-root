@@ -1,6 +1,6 @@
 # How to Root OnePlus 7T with Magisk
 #### By Raymo111
-*Last updated 26 November 2020*
+*Last updated 5 May 2021*
 
 *Disclaimer: I have personally tested every step of this. However, I did the rooting in August 2020, and things MAY HAVE CHANGED. I'm not responsible for anything you do. Back up your data!*
 
@@ -63,3 +63,6 @@ At this point, it is a **must** to set up lock screen and security, as well as a
 2. Head over to `Settings` > `System update` and tap on the cog icon on the top right corner.
 3. Click on ‘Local upgrade‘ and select the OTA .zip file needed for installing the update. Once selected, tap `Install`. The update will take a few minutes to install. **Do NOT reboot** yet.
 5. Open Magisk Manager and repeat step 21, but this time select the `Install to Inactive Slot (After OTA)` instead. Root should be preserved the OTA update should be installed. Note that you only need to flash one of the A/B on each OTA update, and root will persist even after reboots.
+
+## Notes
+I've confirmed that major OOS updates (like 10->11) *DO* work with this method (keep root without losing data). However, it is still your responsibility to backup your data!
