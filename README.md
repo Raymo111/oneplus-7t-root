@@ -14,7 +14,7 @@ So, like me, you've just got your OnePlus 7T. You want to root it, because OnePl
   - Try rebooting first before you smash something in anger. If you do smash something, don't smash something expensive.
   - https://www.oneplus.com/global/support/softwareupgrade > OnePlus 7T (**not 7T Pro!**) has the stock boot image that you can flash using fastboot the same way you flash a patched version.
  - In case 10.0.0.12 isn't the newest version anymore and xda-devs doesn't have a patched **GLOBAL** version of the latest OOS then [this xda post](https://forum.xda-developers.com/showpost.php?p=81277507&postcount=613) might help. (I also just saved it on wayback machine just in case)
- - I've confirmed that major OOS updates (like 10->11) *DO* work with this method (keep root without losing data). However, it is still your responsibility to backup your data!
+ - I've confirmed that major OOS updates (like 10->11) *DO* work with the update method below (keep root without losing data). However, it is still your responsibility to backup your data!
 
 ## Root
 1. Remove all packaging from your phone, but **don't put the included case on yet**. It's a pain to put on and you'll thank me in a few minutes.
@@ -23,7 +23,7 @@ So, like me, you've just got your OnePlus 7T. You want to root it, because OnePl
 4. Download the latest versions of [ADB](https://developer.android.com/studio/releases/platform-tools) and a Magisk-patched boot image for OnePlus 7T. (OOS 10.0.12, the latest version as of the 10 August 2020, is [included in this repo](https://github.com/Raymo111/oneplus-7t-root/raw/master/Magisk-patched%20OOS_10_0_12.img).
 5. If you're on windows, extract the ADB zip file to C:\adb. Open cmd there. Otherwise, add adb to your path or open up a terminal where adb is.
 6. Head over to `Settings > About phone`. Tab on the Build number at least 7 times to get developer access.
-7. Note your build number. **If it isn't the latest (i.e. > 10.0.12) then you'll need to `System > System updates > update` your OOS. If you don't you risk bricking or bootlooping. At the very least, wifi won't work. Believe me, I tried.**
+7. Note your build number. **If it isn't the latest (i.e. > 10.0.12) then you'll need to `System > System updates > update` your OOS. If you don't, you risk bricking or bootlooping. At the very least, wifi won't work. Believe me, I tried.**
 8. Once that's up to date, head over to `Security & lock screen` and set `Screen lock` to `none`. Go to `System > Developer options` and enable `Advanced reboot`, `USB debugging` and `OEM unlocking`. It sounds scary but you gotta do it if you wanna root.
 9. Plug your phone into your computer and enable USB debugging when it pops up on your phone. I would set it to `always enable`. If you want to do that now just unplug and replug :)
 10. In the terminal you opened (yes cmd is a terminal), run
@@ -57,10 +57,11 @@ fastboot reboot
 21. Now you can install Magisk (use the `INSTALL` button beside `Magisk is up to date`). Tap `INSTALL`, `Direct Install (Recommended)`, and watch your phone enter hacking mode (You might have to `ALLOW` access to your device). Tap `Reboot`, and your phone should now be rooted!
 
 Once you get apps that request SU access, the `Superuser` menu in Magisk manager will show them.
-At this point, it is a **must** to set up lock screen and security, as well as any other settings you want to customize or rice.
+At this point, it is a **must** to set up lock screen and security, as well as any other settings you want to customize or rice. Make sure to go to developer options and disable rebooting after automatic updates.
 
 ## Update
-1. To install an OTA update and keep root, download the OTA update and make sure you disable all Magisk modules (if any).
+1. To install an OTA update and keep root, download the OTA update.
 2. Head over to `Settings` > `System update` and tap on the cog icon on the top right corner.
 3. Click on ‘Local upgrade‘ and select the OTA .zip file needed for installing the update. Once selected, tap `Install`. The update will take a few minutes to install. **Do NOT reboot** yet.
-5. Open Magisk Manager and repeat step 21, but this time select the `Install to Inactive Slot (After OTA)` instead. Root should be preserved the OTA update should be installed. Note that you only need to flash one of the A/B on each OTA update, and root will persist even after reboots.
+5. Open Magisk Manager and repeat step 21, but this time select the `Install to Inactive Slot (After OTA)` instead. Root should be preserved and the OTA update should be installed. Note that you only need to flash one of the A/B on each OTA update, and root will persist even after reboots.
+6. On this reboot it might take a long time (30+ spins for minor versions, 100+ for major versions). Take a shower, go for a walk, play a game of chess on classical time control. Whatever you do DON'T POWEROFF YOUR PHONE!!
