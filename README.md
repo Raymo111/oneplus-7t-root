@@ -4,7 +4,7 @@
 
 *Disclaimer: I have personally tested every step of this. However, I did the rooting in August 2020, and things MAY HAVE CHANGED. I'm not responsible for anything you do. Back up your data!*
 
-So, like me, you've just got your OnePlus 7T. You want to root it, because OnePlus is the only phone manufacturer amazing like that. That's what you should do, at least in my opinion. P.S. If you are here before you got it: wow, good for you. Pro tip, use https://oneplusstock.net/ to make sure you get it immediately when OnePlus releases a new batch.
+So, like me, you've just got your OnePlus 7T. You want to root it, because OnePlus is the only phone manufacturer amazing like that. That's what you should do, at least in my opinion. P.S. If you are here before you got it: wow, good for you for planning ahead.
 
 ## Notes
 - I'm writing this tutorial as I do it myself, both for my sake in case I need to do this in the future, and so I get everything, without missing something, to you.
