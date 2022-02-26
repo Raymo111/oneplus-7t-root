@@ -30,7 +30,8 @@ So, like me, you've just got your OnePlus 7T. You want to root it, because OnePl
 ```
 adb devices
 ```
-If the device doesn't show up then you skipped some section of the tutorial. Or something else that I have no idea. Feel free to create an issue to this repo and I *might* help you out.
+**If the device doesn't show up then you mmay have skipped some section of the tutorial.** Feel free to create an issue to this repo and I *might* help you out.
+
 11. Assuming it does show up, you can hold the power button on your phone and reboot to Bootloader (tap it when the options pop up). If you like running commands you can also use
 ```
 adb reboot bootloader
